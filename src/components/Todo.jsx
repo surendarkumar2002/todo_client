@@ -7,7 +7,7 @@ const Todo = () => {
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
   const [editId, setEditId] = useState(-1);
-  const apiURL = "https://sever-backend-x0n2.onrender.com/todos";
+  const apiURL = "https://sever-backend-x0n2.onrender.com";
 
   // Edit
   const [editTitle, setEditTitle] = useState("");
